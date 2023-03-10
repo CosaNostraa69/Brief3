@@ -1,0 +1,51 @@
+@import url(./section1.css);
+@import url(./section2.css);
+@import url(./section3.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.header_wrapper {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  margin: 0 auto;
+  padding-top: 5px;
+  vertical-align: middle;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.header_title {
+  color: white;
+  font-weight: 800;
+  margin-left: 18px;
+  margin-top: 12px;
+}
+.header_title::first-letter {
+  color: #f89624;
+  font-size: 32px;
+}
+
+.header_menu {
+  margin-left: auto;
+  list-style-type: none;
+  padding: 0;
+  display: none;
+}
+.header_nav {
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 1em;
+  max-width: fit-content;
+}

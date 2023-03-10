@@ -1,0 +1,98 @@
+.hero_background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  background-image: url(./IMAGE/banner_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+  width: 100%;
+  height: 680px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero_content {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  padding-top: 100px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+#tinker_color {
+  color: #f89624;
+  font-weight: 700;
+  margin-right: 10px;
+}
+#title_color {
+  color: #33c1cf;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.my_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px 0px 10px;
+  gap: 15px;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 0px 50px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.my_button {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 13px;
+  padding: 12px 18px;
+  color: #121212;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* media queries */
+
+@media screen and (min-width: 700px) {
+  h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hero_background {
+    padding-top: none;
+    padding-bottom: 60px;
+  }
+}
