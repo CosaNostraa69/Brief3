@@ -21,6 +21,7 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+  text-align: center;
 }
 
 .img {
@@ -40,6 +41,7 @@
   color: white;
   font-size: 17px;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .line_card {
